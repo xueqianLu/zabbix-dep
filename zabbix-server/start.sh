@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-docker-compose -f compose.yaml up -d 
+#sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+#sudo chmod +x /usr/local/bin/docker-compose
+docker-compose -f docker-compose.yaml up -d 
 
 
 #docker run -it --restart=always \
